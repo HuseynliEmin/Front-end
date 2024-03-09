@@ -1,0 +1,290 @@
+/* .cars {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+
+.cars img {
+    width: 300px;
+    height: 300px;
+}
+
+.cars-content {
+    width: 400px; 
+}*/
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+
+}
+
+.nav-link {
+    padding-left: 30px !important;
+    color: white !important;
+}
+
+
+.header {
+    background: url(img/bmw.car.jpg)center/cover;
+    height: 100vh;
+}
+
+.header h1 {
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
+
+
+.about {
+    padding-top: 100px;
+    letter-spacing: 3px;
+}
+
+.about h2 {
+    font-size: 50px;
+    padding: 40px 0 20px 0;
+}
+
+.about h3 {
+    font-size: 40px;
+}
+
+.about h4 {
+    font-size: 34px;
+    color: rgb(176, 173, 173);
+}
+
+.about p {
+    width: 1100px;
+    color: gray;
+}
+
+@media(max-width:667px) {
+    .header h1 {
+        font-size: 40px;
+    }
+
+    .about h2 {
+        font-size: 30px !important;
+    }
+
+    .about h3 {
+        font-size: 25px;
+    }
+
+    .about h4 {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:1200px) {
+    .about p {
+        width: 100%;
+    }
+}
+
+
+.car-model h3 {
+    padding: 30px 0;
+}
+
+.car-model-img img {
+    width: 100%;
+    height: auto;
+}
+
+.car-model-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.car-model {
+    padding-top: 100px;
+}
+
+.car-model-content span {
+    color: gainsboro;
+}
+
+.car-model-content p {
+    color: gray;
+}
+
+.card-flex {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+@media(max-width:667px) {
+    .car-model-flex {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:1224px) {
+    .card-flex {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+}
+.cars-blog{
+    padding-top: 100px;
+}
+.cars-blog h3{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.cars {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cars-content  {
+    flex: 25%;
+}
+
+
+.cars-content img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+@media(max-width:992px){
+    .cars-content  {
+        flex: 50%;
+    }
+}
+@media(max-width:768px){
+    .cars-content  {
+        flex: 100%;
+    }
+}
+
+#contact {
+    margin-top: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bgbmw.jpg) center/cover;
+    height: auto;
+    object-fit: cover;
+}
+
+.contact {
+    padding-bottom: 100px;
+}
+
+.contact-title h3 {
+    color: white;
+    padding: 100px 0 50px 0;
+}
+
+.input-flex {
+    display: inline;
+}
+
+.input-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-content input {
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.input-content input:hover {
+    border-color: red !important;
+}
+
+label {
+    padding-top: 20px;
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.textarea {
+    margin-top: 30px;
+
+}
+
+textarea:hover {
+    border-color: red;
+}
+
+.inputs button {
+    color: white;
+    background-color: black;
+    border: 1px solid red;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+
+.inputs button:hover {
+    border-color: black;
+    background-color: black;
+    color: red;
+}
+
+@media(max-width:767px) {
+    .contact-content {
+        flex-wrap: wrap;
+    }
+}
+
+.icons {
+    width: 100%;
+    margin: auto;
+}
+
+.icons i {
+    font-size: 23px;
+    padding: 13px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.icons i:hover {
+    border-color: red;
+    cursor: pointer;
+}
+
+.icons article {
+    color: white;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.bottom {
+    height: auto;
+    background-color: black;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.bottom img {
+    width: 50px;
+}
