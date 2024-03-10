@@ -162,14 +162,17 @@ i {
     .navbar-logo {
         width: 50px;
     }
-    .main h3{
+
+    .main h3 {
         font-size: 30px;
     }
-    .main h1{
+
+    .main h1 {
         font-size: 55px;
         margin-bottom: 20px;
     }
-    .main{
+
+    .main {
         padding-top: 30px;
     }
 }
@@ -271,6 +274,7 @@ i {
 
     .about-head {
         width: 100%;
+        padding-top: 200px;
     }
 
     .about-main {
@@ -304,9 +308,12 @@ i {
     }
 }
 
-@media (max-width:976px) {
+@media (max-width:997px) {
     .about-main {
         flex-direction: column;
+    }
+    .about-head{
+        padding-top: 200px;
     }
 }
 
@@ -316,13 +323,21 @@ i {
     }
 }
 
+@media(max-width:557px) {
+    #about{
+        padding-top: 10px;
+    }
+}
+
 @media (max-width:467px) {
     .about-head {
         flex-direction: column;
     }
-    .about-paragraf h2{
+
+    .about-paragraf h2 {
         font-size: 55px;
     }
+
 
 }
 
@@ -419,8 +434,8 @@ p {
 
 }
 
-@media (max-width:557px){
-    .books-head h2{
+@media (max-width:557px) {
+    .books-head h2 {
         font-size: 55px;
     }
 }
@@ -489,17 +504,21 @@ p {
 
 
 }
-@media (max-width:557px){
-    .servis-main h2{
+
+@media (max-width:557px) {
+    .servis-main h2 {
         font-size: 55px;
     }
-    .servis-flex i{
+
+    .servis-flex i {
         font-size: 35px;
     }
-    .numbers h3{
+
+    .numbers h3 {
         font-size: 35px;
     }
-    .numbers span{
+
+    .numbers span {
         font-size: 15px;
     }
 }
@@ -588,8 +607,9 @@ p {
         flex-wrap: wrap;
     }
 }
-@media (max-width:557px){
-    .news-head h2{
+
+@media (max-width:557px) {
+    .news-head h2 {
         font-size: 55px;
     }
 }
@@ -680,11 +700,13 @@ p {
 .blog-all-cards img {
     cursor: pointer;
 }
-@media (max-width:557px){
-    .blog-head h2{
-        font-size: 55px ;
+
+@media (max-width:557px) {
+    .blog-head h2 {
+        font-size: 55px;
     }
 }
+
 #contact {
     background-color: white;
     margin-top: 50px;
@@ -851,11 +873,12 @@ p {
         height: 120vh;
     }
 }
-@media (max-width:676px){
-.address{
-    flex-wrap: wrap;
-    gap: 30px;
-}
+
+@media (max-width:676px) {
+    .address {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
 }
 
 
@@ -905,12 +928,14 @@ p {
     background-color: white;
     color: black;
 }
-@media (max-width:557px){
-    .line{
+
+@media (max-width:557px) {
+    .line {
         flex-wrap: wrap;
     }
-    .line p{
-        padding:0 ;
+
+    .line p {
+        padding: 0;
         padding-top: 10px;
     }
 }
@@ -1027,4 +1052,12 @@ i:hover {
         flex-wrap: wrap;
         gap: 30px;
     }
+}
+marquee{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    letter-spacing: 2px;
 }
